@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Main from '../components/section/Main';
 
 const Cidr = () => {
   const [inputIpaddr, setInputIpaddr] = useState({ ipaddr: '', subnet: '', });

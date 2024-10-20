@@ -12,7 +12,7 @@ const Lid = () => {
       `${prefix || 'prefix-'}${Math.random().toString(36).substr(2, length || 9)}`;
 
   useEffect(() => {
-    setSampleId((prev) => generateId(generateOptions))
+    setSampleId((prev) => `${'prefix-'}${Math.random().toString(36).substr(2, 9)}`)
   }, [])
 
   const handleGenerateCount = (e) => {
