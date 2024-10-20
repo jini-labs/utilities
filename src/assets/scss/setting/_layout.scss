@@ -1,0 +1,28 @@
+#header {
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+  top: 0;
+  min-width: 800px;
+  z-index: 1000;
+  background-color: var(--black200);
+}
+#main {
+  // margin-top: 4rem;
+  // padding-top: 4rem;
+  // padding-bottom: 3rem;
+  // background-color: var(--black100);
+  // min-width: 800px;
+}
+#footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  z-index: 1000;
+  background-color: #000;
+  color: var(--white500);
+  background-color: var(--white200)
+} 
