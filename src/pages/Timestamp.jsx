@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import ComingSoon from './ComingSoon'
 
 const Timestamp = () => {
   const [unixtime, setUnixtime] = useState(0)

@@ -14,7 +14,7 @@ import Ulid from './pages/Ulid';
 import Cuid from './pages/Cuid';
 import Nanoid from './pages/Nanoid';
 import Shortid from './pages/Shortid';
-import Timestamp from './pages/Timestamp';
+// import Timestamp from './pages/Timestamp';
 import ComingSoon from './pages/ComingSoon';
 import NotFound from './pages/NotFound';
 
