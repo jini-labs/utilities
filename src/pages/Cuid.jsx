@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import cuid from 'cuid';
 
-const Uuidv1 = () => {
+const Cuid = () => {
   const MAX_GEN_COUNT = 20;
   const [sampleId, setSampleId] = useState();
   const [generateCount, setGenerateCount] = useState();
@@ -74,4 +74,4 @@ const Uuidv1 = () => {
   )
 }
 
-export default Uuidv1
+export default Cuid

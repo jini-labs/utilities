@@ -15,6 +15,8 @@ import Cuid from './pages/Cuid';
 import Nanoid from './pages/Nanoid';
 import Shortid from './pages/Shortid';
 import Timestamp from './pages/Timestamp';
+import ComingSoon from './pages/ComingSoon';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -33,7 +35,9 @@ function App() {
           <Route path="/cuid" element={<Cuid />}></Route>
           <Route path="/Nanoid" element={<Nanoid />}></Route>
           <Route path="/Shortid" element={<Shortid />}></Route>
-          <Route path="/timestamp" element={<Timestamp />}></Route>
+          <Route path="/Timestamp" element={<ComingSoon />}></Route>
+
+          <Route path="*" element={<NotFound />}></Route>
         </Routes>
       </Main>
       <Footer />

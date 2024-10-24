@@ -14,6 +14,7 @@ const Header = () => {
         <Link className="menu-item" to="/ulid">ULID</Link>
         <Link className="menu-item" to="/shortid">ShortID</Link>
         <Link className="menu-item" to="/cuid">CUID</Link>
+        <Link className="menu-item" to="/timestamp">Timestamp</Link>
       </nav>
     </header>
   );

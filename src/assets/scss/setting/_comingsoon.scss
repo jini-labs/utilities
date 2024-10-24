@@ -1,0 +1,16 @@
+.comingsoon__inner {
+  display: flex;
+  flex-direction: column;
+  font-display: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  gap: 2rem;
+
+  link: {
+    margin-top: 20px;
+    color: #3498db;
+    text-decoration: none;
+  }
+}
